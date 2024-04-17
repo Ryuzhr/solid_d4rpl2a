@@ -9,7 +9,7 @@ class Instagram  {
     }
 
     public function publishPost() {
-        echo "Publishing Foto dan video\n";
+        echo "Mengupload Foto dan video\n";
     }
 
     public function sendPhotosAndVideos() {

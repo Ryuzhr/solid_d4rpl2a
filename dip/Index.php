@@ -13,8 +13,10 @@ $saklarKipasAngin = new Saklar($kipasAngin);
 $saklarLampu = new Saklar($lampu);
 
 $saklarKipasAngin->ubah();
+echo "<br>";
 $saklarKipasAngin->ubah();
-
+echo "<br>";
 $saklarLampu->ubah();
+echo "<br>";
 $saklarLampu->ubah();
 ?>

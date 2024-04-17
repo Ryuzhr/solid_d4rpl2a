@@ -9,17 +9,19 @@ require_once 'FiturScan.php';
 class PrinterFlagship implements FiturFax, FiturCetak, FiturScan {
   
     public function terimaFax(): void {
-        echo "Menerima fax di printer flagship...\n";
+        echo "Menerima fax di printer flagship";
+        echo "<br>";
     }
 
 
     public function cetakKertas(): void {
-        echo "Mencetak kertas di printer flagship...\n";
+        echo "Mencetak kertas di printer flagship";
+        echo "<br>";
     }
 
    
     public function scanKertas(): void {
-        echo "Menggunakan fitur scan di printer flagship...\n";
+        echo "Menggunakan fitur scan di printer flagship";
     }
 }
 

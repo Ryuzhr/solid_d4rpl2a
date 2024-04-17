@@ -5,7 +5,7 @@ include_once 'VideoGroupManager.php';
 class Whatsapp {
     
     public function chat() {
-        echo "menggunakan chat\n";
+        echo "chatting\n";
     }
 
     public function sendPhotosAndVideos() {

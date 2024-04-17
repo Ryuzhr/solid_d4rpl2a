@@ -12,11 +12,16 @@ $instagram = new Instagram();
 
 
 $whatsapp->chat();
+echo "<br>";
 $whatsapp->sendPhotosAndVideos();
+echo "<br>";
 $whatsapp->callGroupVideo();
+echo "<br>";
 echo "<br>";
 
 $instagram->chat();
+echo "<br>";
 $instagram->publishPost();
+echo "<br>";
 $instagram->sendPhotosAndVideos();
 ?>
